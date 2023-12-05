@@ -45,75 +45,11 @@ Tercero:
 
 ## Clean ARquitecture
 
-Login...
-
-```
-...renderizar view
-...validar senha
-...tratar resposta de APi
-...tratar Erros da API
-...Controlar Estado
-...Comunicar com API
-...Regras de Negócio
-...Navegação
-...Grava dados no Cache
-...Validar Email
-```
+![image](https://github.com/eugenia1984/clean-arquitecture/assets/72580574/16acb0e8-f739-4584-a727-1f3f59aa9fc3)
 
 
+![image](https://github.com/eugenia1984/clean-arquitecture/assets/72580574/5324c6fb-5081-4534-ad06-48069a947dcf)
 
-Main
-```
-Login Factory
-Index
-DI
-```
+![image](https://github.com/eugenia1984/clean-arquitecture/assets/72580574/6a4ffb08-b2eb-470a-9645-8ee45db47fd2)
 
-Validation
-```
-RequiredFieldValidation    EmailFieldValidation
-      |                       |
-      v                       v
-```
-
-Precentation
-```
-   |
-   v
-Validation<---Login   
-                |
-                v
-```
-
-Domain
-```
-  |
-  v
-Authentication
-  ^
-  |  
-```
-
-Data
-```
-  ^
-  |
-RemoteAuthentication<--HttpPostClient
-                            ^
-                            |  
-```
-
-Infra
-```
-   ^
-   |
-AxiosHttpsClient
-   |
-   v
-```
-
-```
-  |
-  v
-Axios
-```
+---
