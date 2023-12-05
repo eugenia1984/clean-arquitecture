@@ -43,7 +43,7 @@ Tercero:
 
 ---
 
-## Clean ARquitecture
+# CLEAN ARQUITECTURE
 
 ![image](https://github.com/eugenia1984/clean-arquitecture/assets/72580574/16acb0e8-f739-4584-a727-1f3f59aa9fc3)
 
